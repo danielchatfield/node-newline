@@ -1,0 +1,122 @@
+{
+  "name": "line-endings",
+  "version": "0.0.1",
+  "description": "A small module for detecting line endings in files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielchatfield/line-endings.git"
+  },
+  "keywords": [
+    "line-endings"
+  ],
+  "author": "Daniel Chatfield",
+  "license": "Artistic-2.0",
+  "bugs": {
+    "url": "https://github.com/danielchatfield/line-endings/issues"
+  },
+  "devDependencies": {
+    "gulp-jscs": "~0.3.0",
+    "gulp": "~3.5.2"
+  },
+  "jscsConfig": {
+    "requireCurlyBraces": [
+      "if",
+      "else",
+      "for",
+      "while",
+      "do",
+      "try",
+      "catch"
+    ],
+    "requireSpaceAfterKeywords": [
+      "if",
+      "else",
+      "for",
+      "while",
+      "do",
+      "switch",
+      "return",
+      "try",
+      "catch"
+    ],
+    "disallowLeftStickedOperators": [
+      "?",
+      "+",
+      "-",
+      "/",
+      "*",
+      "=",
+      "==",
+      "===",
+      "!=",
+      "!==",
+      ">",
+      ">=",
+      "<",
+      "<="
+    ],
+    "disallowRightStickedOperators": [
+      "?",
+      "+",
+      "/",
+      "*",
+      ":",
+      "=",
+      "==",
+      "===",
+      "!=",
+      "!==",
+      ">",
+      ">=",
+      "<",
+      "<="
+    ],
+    "requireRightStickedOperators": [
+      "!"
+    ],
+    "requireLeftStickedOperators": [
+      ","
+    ],
+    "disallowImplicitTypeConversion": [
+      "string"
+    ],
+    "disallowKeywords": [
+      "with"
+    ],
+    "disallowMultipleLineBreaks": true,
+    "disallowKeywordsOnNewLine": [
+      "else"
+    ],
+    "disallowTrailingWhitespace": true,
+    "requireLineFeedAtFileEnd": true,
+    "excludeFiles": [
+      "test/data/**"
+    ],
+    "validateJSDoc": {
+      "checkParamNames": true,
+      "requireParamTypes": true
+    }
+  },
+  "jshintConfig": {
+    "curly": true,
+    "eqeqeq": true,
+    "immed": true,
+    "indent": 2,
+    "latedef": true,
+    "newcap": true,
+    "noarg": true,
+    "strict": true,
+    "sub": true,
+    "trailing": true,
+    "undef": true,
+    "unused": true,
+    "boss": true,
+    "eqnull": true,
+    "node": true,
+    "es5": true
+  }
+}
