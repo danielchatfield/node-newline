@@ -4,7 +4,7 @@
   "description": "A small module for detecting line endings in files.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp"
   },
   "repository": {
     "type": "git",
@@ -20,86 +20,11 @@
   },
   "devDependencies": {
     "gulp-jscs": "~0.3.0",
-    "gulp": "~3.5.2"
-  },
-  "jscsConfig": {
-    "requireCurlyBraces": [
-      "if",
-      "else",
-      "for",
-      "while",
-      "do",
-      "try",
-      "catch"
-    ],
-    "requireSpaceAfterKeywords": [
-      "if",
-      "else",
-      "for",
-      "while",
-      "do",
-      "switch",
-      "return",
-      "try",
-      "catch"
-    ],
-    "disallowLeftStickedOperators": [
-      "?",
-      "+",
-      "-",
-      "/",
-      "*",
-      "=",
-      "==",
-      "===",
-      "!=",
-      "!==",
-      ">",
-      ">=",
-      "<",
-      "<="
-    ],
-    "disallowRightStickedOperators": [
-      "?",
-      "+",
-      "/",
-      "*",
-      ":",
-      "=",
-      "==",
-      "===",
-      "!=",
-      "!==",
-      ">",
-      ">=",
-      "<",
-      "<="
-    ],
-    "requireRightStickedOperators": [
-      "!"
-    ],
-    "requireLeftStickedOperators": [
-      ","
-    ],
-    "disallowImplicitTypeConversion": [
-      "string"
-    ],
-    "disallowKeywords": [
-      "with"
-    ],
-    "disallowMultipleLineBreaks": true,
-    "disallowKeywordsOnNewLine": [
-      "else"
-    ],
-    "disallowTrailingWhitespace": true,
-    "requireLineFeedAtFileEnd": true,
-    "excludeFiles": [
-      "test/data/**"
-    ],
-    "validateJSDoc": {
-      "checkParamNames": true,
-      "requireParamTypes": true
-    }
+    "gulp": "~3.5.2",
+    "gulp-jshint": "~1.4.0",
+    "jshint-stylish": "~0.1.5",
+    "mocha": "~1.17.1",
+    "should": "~3.1.2"
   },
   "jshintConfig": {
     "curly": true,
@@ -116,7 +41,6 @@
     "unused": true,
     "boss": true,
     "eqnull": true,
-    "node": true,
-    "es5": true
+    "node": true
   }
 }

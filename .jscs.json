@@ -1,0 +1,5 @@
+{
+  "disallowMultipleVarDecl": true,
+  "disallowSpacesInsideObjectBrackets": true,
+  "validateIndentation": 2
+}
