@@ -1,6 +1,6 @@
 {
   "name": "newline",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A small module for detecting line endings in files.",
   "main": "index.js",
   "scripts": {
