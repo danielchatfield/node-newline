@@ -14,7 +14,7 @@ var lf = generateSample("\n");
 var cr = generateSample("\r");
 var crlf = generateSample("\r\n");
 
-describe('lineEndings.detect', function () {
+describe('newline.detect', function () {
   it('should detect LF', function() {
     detect(lf).should.equal("LF");
   });

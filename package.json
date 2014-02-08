@@ -1,14 +1,14 @@
 {
-  "name": "line-endings",
+  "name": "newline",
   "version": "0.0.1",
   "description": "A small module for detecting line endings in files.",
   "main": "index.js",
   "scripts": {
-    "test": "gulp"
+    "test": "gulp test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/danielchatfield/line-endings.git"
+    "url": "https://github.com/danielchatfield/node-newline.git"
   },
   "keywords": [
     "line-endings"
@@ -16,7 +16,7 @@
   "author": "Daniel Chatfield",
   "license": "Artistic-2.0",
   "bugs": {
-    "url": "https://github.com/danielchatfield/line-endings/issues"
+    "url": "https://github.com/danielchatfield/node-newline/issues"
   },
   "devDependencies": {
     "gulp-jscs": "~0.3.0",
