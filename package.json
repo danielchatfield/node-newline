@@ -1,6 +1,6 @@
 {
   "name": "newline",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A small module for detecting line endings in files.",
   "main": "index.js",
   "scripts": {
@@ -43,13 +43,13 @@
     "boss": true,
     "eqnull": true,
     "node": true,
-    "globals"   : {
-      "describe"   : false,
-      "it"         : false,
-      "before"     : false,
-      "beforeEach" : false,
-      "after"      : false,
-      "afterEach"  : false
+    "globals": {
+      "describe": false,
+      "it": false,
+      "before": false,
+      "beforeEach": false,
+      "after": false,
+      "afterEach": false
     }
   }
 }
