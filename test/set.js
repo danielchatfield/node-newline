@@ -15,7 +15,7 @@ var lf = generateSample("\n");
 var cr = generateSample("\r");
 var crlf = generateSample("\r\n");
 
-describe('lineEndings.set', function () {
+describe('newline.set', function () {
   it('should convert LF to CRLF', function() {
     var replaced = set(lf, 'CRLF');
     detect(replaced).should.equal("CRLF");
