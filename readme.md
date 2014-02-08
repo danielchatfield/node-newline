@@ -1,4 +1,4 @@
-# newline
+# newline [![Build Status](https://travis-ci.org/danielchatfield/node-newline.png?branch=master)](https://travis-ci.org/danielchatfield/node-newline)
 
 ## Install
 
