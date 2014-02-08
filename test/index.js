@@ -2,10 +2,14 @@
 /*jshint expr: true*/
 
 require("should");
-var lineEndings = require("../index.js");
+var newline = require("../index.js");
 
-describe('lineEndings api', function () {
+describe('newline api', function () {
   it('should have a detect method', function() {
-    lineEndings.detect.should.be.a.Function;
+    newline.detect.should.be.a.Function;
+  });
+
+  it('should have set method', function(){
+    newline.set.should.be.a.Function;
   });
 });

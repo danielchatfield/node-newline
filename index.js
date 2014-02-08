@@ -1,3 +1,4 @@
 module.exports = {
-  detect: require('./lib/detect')
+  detect: require('./lib/detect'),
+  set: require('./lib/set')
 };
