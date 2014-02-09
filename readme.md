@@ -15,8 +15,15 @@ npm install --save newline
 // Detects the line ending used in the string source and returns "CR", "LF" or "CRLF"
 newline.detect(source);
 
-var newSource = newline.set(source, "LF"); // Sets the source to the specified line endings
+
+// Sets the source to the specified line endings
+var newSource = newline.set(source, "LF");
 ```
 
+## Testing
 
+If you want to contribute then you can run the testsuite by running `npm test`.
 
+## License
+
+Artistic 2.0 (see LICENSE for more details)
